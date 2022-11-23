@@ -340,13 +340,13 @@
     justify-content: flex-start;
     background-color: transparent;
   }
-  .home-google-negative {
+  /* .home-google-negative {
     top: 0px;
     left: -21px;
     width: 35px;
     height: 35px;
     position: absolute;
-  }
+  } */
   .home-instagram-negative {
     top: 326px;
     left:  0px;
@@ -2124,8 +2124,11 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  .home-text110 {
+  .home-text108>a,   .home-text110 > a,   .home-text112> a,  .home-text108>a ,.home-text114>a,.home-text116>a{
     color: rgba(255, 255, 255, 0.800000011920929);
+    text-decoration: none;
+  }
+  .home-text110 {
     height: auto;
     position: absolute;
     font-size: 18px;
@@ -2306,9 +2309,9 @@
     background-color: transparent;
   }
   .home-text120 {
-    left: 84px;
-    color: rgba(0, 0, 0, 0.800000011920929);
+    left: 84px; 
     height: auto;
+    text-decoration: none;
     position: absolute;
     font-size: 18px;
     align-self: auto;
@@ -2318,7 +2321,11 @@
     font-weight: 500;
     line-height: normal;
     font-stretch: normal;
+    
+  }
+  .home-text120 > a, .home-text122 > a, .home-text124 > a, .home-text126 > a, .home-text128 > a  {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.800000011920929);
   }
   .home-text122 {
     color: rgba(0, 0, 0, 0.800000011920929);
