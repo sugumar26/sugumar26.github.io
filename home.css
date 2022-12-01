@@ -585,6 +585,21 @@
     font-stretch: normal;
     text-decoration: none;
   }
+  .locadd{
+    left: 568px;
+    color: rgba(0, 29, 61, 1);
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    align-self: auto;
+    font-style: Medium;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
   .home-text040 {
     top: 53px;
     left: 21px;
@@ -1660,8 +1675,8 @@
     top: 3030px;
     left: 220px;
     width: 1000px;
-    height: 529px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     padding: 0;
     position: absolute;
     align-self: auto;
@@ -1675,8 +1690,9 @@
     border-radius: 0px 0px 0px 0px;
     margin-bottom: 0;
     flex-direction: row;
-    justify-content: flex-start;
     background-color: rgba(232, 232, 232, 1);
+    padding: 35px;
+    column-gap: 45px;
   }
   .home-rectangle61 {
     top: 65px;
@@ -2386,4 +2402,51 @@
     font-stretch: normal;
     text-decoration: none;
   }
-  
+  .user_input > input,.user_input > textarea,.user_input>:placeholder-shown{
+    padding: 10px; 
+    border: none;
+    border-bottom: 1.5px solid #E9E9E9;
+    outline: none;
+  }
+  .user_input{
+    display: grid;
+    row-gap: 8px;
+    margin-bottom: 18px;
+  }
+  .contact_button{
+    text-align: center;
+  }
+  .contact_button > button{
+    color: white;
+    padding: 12px 20px;
+    width: 26%;
+    border: none;
+    cursor: pointer;
+    background: #3a86ff;
+    box-shadow: 4px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px 0px rgb(0 0 0 / 25%);
+  }
+  .contact_icon{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 12px;
+    align-items: center;  
+  }
+  .wrapper{
+    width: 389px;
+    height: 396px;
+    background-color: white;
+    border-radius: 8px;
+    font-family:poppins;
+    box-shadow: 4px 4px 4px 0px rgb(0 0 0 / 25%);
+   
+  }
+  .contact_info{
+    display: grid;
+    row-gap: 77px;
+    margin-top: 72px;
+  }
+  .userinputmess{
+
+  }
